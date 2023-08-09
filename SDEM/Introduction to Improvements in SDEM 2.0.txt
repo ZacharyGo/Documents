@@ -1,0 +1,367 @@
+Introduction to Improvements in SDEM 2.0
+
+Introduction -First Reform of SDEM Standard Processes in 14 Years￾
+ 
+In 2021, SDEM was reformed for the first time in 14 years into SDEM 2.0.
+Created in 1976, SDEM has more than 40 years of accumulated knowledge,
+a compilation of Fujitsu's know-how, and is still evolving along with global trends.
+This training course introduces the improvements made in SDEM 2.0.
+
+1. Purpose of SDEM 2.0 Renewal
+ 
+Chapter 1 explains the purpose of SDEM renewal.
+By the end of this chapter, you will understand the background to SDEM renewal and SDEM usage 
+scenarios.
+
+1.1	Purpose of SDEM 2.0 Renewal
+ 
+The update into SDEM 2.0 assumed that it is natural for existing systems to exist.
+The old SDEM was established in the early years of core system development, with the primary theme of 
+making new systems, such as to systematize manual work and the development of forms.
+On the other hand, in current SI projects, it is natural for various existing systems to exist around them. 
+In new system construction, development cannot proceed without linkage to an existing system.
+So tacit knowledge from those with experience in reconstruction projects has been turned into explicit 
+knowledge to strengthen processes.
+To make all categories practical in line with the reality of current system development, category 
+definitions were reviewed, and purpose and work elements and viewpoints were added to the WBS.
+Based on the accumulated know-how in the field, a considerable amount of knowledge to prevent trouble has been added.
+
+1.2 SDEM 2.0 Usage Scenarios - Can be Used for Both New Construction and Reconstruction –
+ 
+As mentioned in the purpose, in a world where it is natural for existing systems to exist, investigation of 
+existing systems is necessary for both new construction and reconstruction.
+Of course, for reconstruction, the target existing system is investigated.
+For new construction, the interfaces and functions of the existing system likely to be linked is 
+investigated in order to utilize a variety of data.
+Current analysis in the RD phase in the old version has been systematized and improved as a phase in 
+SDEM 2.0 so that it can be used for both new construction and reconstruction. 
+2. Key Points of SDEM 2.0 Renewal
+Chapter 2 explains key points of SDEM 2.0 renewal.
+By the end of this chapter, you will understand three key points of SDEM renewal.
+
+2.1 Key Points of SDEM 2.0 Renewal
+ 
+The SDEM 2.0 renewal has three significant points:
+1. Added the current business and system analysis phase (CA phase)
+2. Added the "T: Quality assurance (overall test)" category
+3. Improved existing categories and the WBS to be more practical
+The third improvement includes, for example, a review of the definitions and positioning of the "B: 
+Business" and "C: System requirements" categories, and the addition of sub categories to them, a 
+review of the positioning of the "G: Operation and maintenance" category, and the refinement and 
+expansion of the "H: Transition & deployment" category and WBS.
+SDEM 2.0 incorporates the WBS of the SDEM Practical Standards [Reconstruction Development] which 
+was enhanced by new SI quality assurance system initiatives, into SDEM, and has more enhanced 
+additions and reforms.
+Chapter 3 introduces the changes specifically in detail.
+
+2.2 Extended WBS Across Categories
+ 
+SDEM 2.0 features an extended WBS across categories, unlike in the conventional SDEM.
+In system development, some work needs consideration from an overall perspective across SDEM 
+categories.
+"Z" is used in the WBS-ID of items requiring consideration across categories.
+For example, "Z1CA200" is defined for "Confirmation of reconstruction requests and tentative definition 
+of reconstruction pattern from requests perspective" because it requires consideration from an overall 
+system perspective across all categories.
+"DZCA100" is defined for "Overall understanding of current assets" because it requires consideration 
+across the entire the "D: Application" category.
+
+2.3 Definition of Relationships Between WBS Categories
+ 
+Another feature of SDEM is the clearer order and relationship between categories compared to the old 
+SDEM handbook.
+Especially in the upstream phases such as CA, RD, and UI, a single phase is represented by multiple 
+columns, clarifying the predecessor-successor relationship in the WBS.
+Some predecessor-successor relationships are indicated by arrows to clarify WBS links between 
+categories.
+A WBS requiring consideration across categories is shown as a vertically long WBS that extends across 
+categories with IDs beginning with "Z" so it is easier to distinguish.
+Pay attention to the context and links of the WBS during use.
+
+3. Changes in SDEM 2.0
+Chapter 3 explains specific changes made for improvements in SDEM 2.0.
+By the end of this chapter, you will understand additions and changes related to phases, additions and 
+changes related to categories and the WBS, and operation & maintenance phase changes.
+
+3.1 Changes Related to Phases
+First is an explanation of changes related to phases.
+3.1.1 Additions and Changes Related to Phases
+
+ 
+In old version of SDEM, current analysis was one WBS in the RD phase. Current analysis is newly 
+systematized as the CA phase, and the WBS of current business and system analysis has been added.
+With the addition of the CA phase, the WBS has been expanded to define and determine the 
+requirement definition requirements of the RD phase in line with both the reconstruction requirements and new requirements.
+3.1.2 Addition of CA Phase - Purpose –
+ 
+This page explains the added CA phase.
+The CA phase is the phase for evaluating if development can actually begin, that is, evaluating feasibility and assumed risks.
+The CA phase has three purposes.
+1. Determine if the requirement definition or order receipt phase can begin during or after development and collect missing information.
+2. Based on investigation results, evaluate feasibility, determine the system construction method, and align awareness with the customer to eliminate any discrepancies in awareness.
+3. Share possible risks with stakeholders such as the project owner of the customer to agree on considerations to hedge risks.
+3.1.2 Addition of CA Phase - Work Outline –
+ 
+In the CA phase, carry out a current analysis, determine the development methods, and agree on 
+construction risks with stakeholders.
+The workflow in the CA phase starts with confirmation of the next system vision and planning from an RFP and tentative definition of the reconstruction pattern from a requests perspective.
+Next is the checking of the existence and update status of current documents.
+After candidate selection of the reconstruction pattern based on investigation results, the purpose and scope of investigation is clarified from the selected reconstruction pattern.
+Based on the clarified purpose and scope of investigation, a current system analysis is performed as a deep dive. Then, an incompatibility study is conducted, especially in modernization using current assets.
+Lastly, a decision is made on the reconstruction pattern based on investigation results, which include a feasibility evaluation, followed by a risk consensus with stakeholders.
+3.1.3 Expansion of RD Phase
+ 
+This page explains the expanded RD phase.
+With the addition of the CA phase, the WBS for requirement definition in the RD phase has been expanded for detailed definition of new requirements and the determination of requirements as a new system meeting requests for reconstruction.
+Also, a WBS has been added for decisions on how to respond to incompatibilities investigated in the CA phase.
+
+3.1.4 V-shaped Model for Quality Assurance in System Development
+ 
+In the improvements this time, the concepts of gradual refinement in requirement definition and design and gradual integration in the corresponding test phase have not changed. That is, the V-shaped model for quality assurance in system development is unchanged. To understand and comprehend the concepts, excavation of current operations and systems was added as a precondition.
+3.2 Changes Related to Categories
+This next section explains changes related to categories.
+3.2.1 Additions and Changes Related to Categories  
+The figure shows all the category-related additions and changes from the old version. The tables show a comparison of SDEM before and after the changes.
+Here is an explanation of the additions and changes in order from the top.
+- "T: Quality assurance (Overall test)" was added as a category for quality assurance.
+- The positioning of "B: Business" and "C: System requirements" was reviewed and definitions were changed.
+- The UX (usage experience) category was added to B: Business.
+- The "C1: Overall system architecture" and "C6: Security" categories were added to C: System 
+requirements.
+- The names of sub categories in the "D: Application" category were changed.
+- The E2 category was added to E: Application infrastructure, as a category of database architectures and definitions viewed from applications.
+- The definition of "G: Operation and maintenance" was changed and the "F9: System operation" 
+category was added accordingly to F: System infrastructure.
+- The "H1: Transition" category in "H: Transition & deployment" was subdivided according to actual project conditions.
+- Categories related to the management of contracts with customers and OSS applications were added to J: Project management.
+The following pages explain the contents of the changes.
+3.2.2 T: Quality Assurance (Overall Test) - Purpose –
+ 
+The meaning and purpose of the newly established "T: Quality assurance (Overall test)" category are to understand the processes from planning and test execution to final judgment in order to provide quality assurance in production. Then, project management can proceed. Category T covers quality assurance through testing out of quality assurance through design and testing.
+Category T has two purposes.
+The first is to take risk measures at the project startup stage.
+Predict and detect quality assurance risks due to project/customer characteristics at an early stage of the project, and enable negotiations and agreement with the customer and execution of risk measures from the time of project planning.
+The second is to take early risk measures while the project is in progress.
+Predict and determine from the risk detection stage which parts of an overall test plan in an early stage would be impacted by risks that occur on a daily basis in an ongoing project, thereby enabling engagement in customer negotiations and risk measures from an early stage.
+3.2.2 Quality Assurance (Overall Test) - Flow From Quality Scenario –
+ 
+This page explains the major flow from quality assurance scenario to planning and execution of test 
+including added 
+Category T and improvement points.
+The figure shows excerpts from the WBS related to the test.
+1) First, consider business operation continuity and the quality assurance achievement level in the CA 
+and RD phases, and formulate a quality assurance scenario. This WBS is newly added.
+2) Next, develop an overall test plan based on the quality assurance scenario. The overall test plan was 
+reviewed to start consideration from the RD phase.
+3) Based on the overall test plan, formulate test plans from PT to IT by category area. The WBS for test planning for each area was added.
+4) Based on the quality assurance scenario and the overall test plan, integrate tests by area and 
+formulate system, operational, and comparison (new and current) test plans. The planning WBS was enhanced, and the WBS for new and current tests was added.
+For your reference, the WBS Manual describes points to consider about each test plan.
+3.2.3 B: Business / C: System Requirements
+ 
+This and subsequent pages explain the changes in Categories B and C.
+The definitions and positioning of "B: Business" and "C: System requirements" were reviewed.
+Perspectives related to the business specifications of customers were all consolidated into "B: Business."
+The positioning of "C: System requirements" was clarified to turn this category into the specialized role of "architecture."
+Next, I will explain sub categories we added.
+3.2.3 B: Business / C: System Requirements - B3: UX (Usage Experience) –
+ 
+The review process regarding user experience (UX) was newly established in "B: Business" as the "B3: UX (Usage experience)" category.
+The UX (usage experience) category considers how to utilize the system and what will be accomplished from the user perspective. Not only user-friendly screens but the work items and processes necessary for designing and developing the system will be the most valuable to customers.
+In addition to the requirement definition work performed in the traditional system development, 
+requirements are defined from the user perspective to keep in mind how to utilize the system and what will be accomplished. This will lead to a purpose-oriented proposal and system design.
+An approach starting from that experience will lead to solutions to customers' problems, which in turn enhances business competitiveness.
+
+This category has two purposes.
+The first is to clarify what is ideal for the next system and what the system should do in line with real requests from the field. Using that image of a system as a basis for discussion, the parties concerned can proceed after agreeing on what the next system should be.
+
+Second is to define in detail the screens that will produce important user experiences during the RD phase and share them with the parties concerned to: 
+1) make it easy to recall experiences after system operation begins, and
+2) allow users to check if the ideal has been realized, which makes it possible to correct the parts likely to become a significant problem.
+For details of work related to this category, see the SDEM Practical Standards: UX Design (ITUMAP).
+3.2.3 B: Business / C: System Requirements - C1: Overall System Architecture –
+ 
+The "C1: Overall system architecture" category was added to "C: System requirements," which considers and designs the overall system architecture.
+This category was added because it is important to consider and design the overall system architecture for both new construction and reconstruction.
+Insufficient consideration of the architecture will have a significant impact on the entire system, such as the system implementation method, project costs, schedule, quality, and so on.
+
+Requirement definition for elements in the overall system architecture, including the business 
+architecture, database architecture, external collaboration architecture, interface architecture, security architecture, system infrastructure architecture, and operation architecture from RFP functional requests and non-functional requests was systematized.
+From "C1: Overall system architecture," the system level architecture, including the OS, middleware, and virtual environment, connects to the system infrastructure, and the application-related architecture connects to the application infrastructure.
+3.2.3 B: Business / C: System Requirements -C6: Security-
+ 
+The WBS for considering security requirements for the overall system and design architecture from 
+requirement definition is newly systematized as "C6: Security."
+Category F already has a security category. However, greater collaboration with outside parties on data 
+utilization in growth fields aimed at DX, etc. will required more secure measures to be taken.
+Category C6 was added and the WBS was expanded with the aim of realizing an ideal image of security 
+in the overall system and application development, not only in the infrastructure.
+3.2.4 D: Application / E: Application Infrastructure  
+This page explains the changes in Categories D and E.
+
+The sub category names for "D: Application" were reviewed in order to clarify the work of each category, 
+and any WBS inadequate for practical use was improved.
+For example, the following was added:
+- WBS to analyze existing assets such as programs and definition objects
+- WBS to clarify implementation of application performance and verification work
+- "Development of program test plan" WBS, "Development of integration test plan" WBS, and WBS for 
+preparation of data for each test
+
+With the addition of "C1: Overall system architecture," the WBS related to implementation in the 
+application infrastructure was clarified accordingly in "E: Application infrastructure," such as "Defining list 
+of application infrastructure functions that cannot be realized by frameworks."
+Also, the WBS for performance implementation specification/rule definition was added.
+
+The "E2: Database architectures and definitions" category was also added, and each WBS from "Design 
+of database access architecture" to "Table implementation and development" was added. 
+That is because Category D contained database architecture and definition work and role division in 
+Category F was unclear. So work as sub categories of "E: Application infrastructure" was clarified.
+
+3.2.5 F: System Infrastructure / G: Operation and Maintenance
+ 
+This page explains the changes in Categories F and G.
+
+"G1: Operation and maintenance" in the old version mainly deals with infrastructure construction work for 
+system operation. Preparation work for operation after production was insufficient.
+Therefore, "G1: Operation and maintenance" in SDEM 2.0 was reviewed as a preparation process for 
+operation and maintenance after production.
+Accordingly, "F9: System operation" in Category F was added, and the WBS related to system operation 
+construction in Category G1 in the old version was moved.
+
+The WBS for understanding current operations and maintenance in the CA phase of "G1: Operation and 
+maintenance," for understanding operations and maintenance requirements for the new system in the 
+RD phase, or for operation and maintenance preparation after production in the ST and OT phases was 
+systematized. 
+3.2.6 H: Transition & Deployment  
+This page explains the changes in Category H.
+Transition planning in "H: Transition & deployment" was positioned from the CA phase in order to 
+determine transition risks at an early stage. Also, each WBS was refined or expanded in line with project 
+implementation.
+
+There are three improvements.
+1. The WBS for transition requirement confirmation and transition plan was reviewed for execution from 
+the CA phase.
+2. The WBS for the following sub categories was redefined: Transition plan, System transition, and Data 
+transition.
+3. The WBS for existing data retrieval, data cleansing work, etc. is newly defined.  
+This page explains the changes in Category J.
+
+"J: Project management" systematizes the WBS for the management of contracts with customers and 
+OSS applications.
+
+The WBS to define the process and timing of contracts with customers was added the "JA: Contract 
+management" category. This includes proposal and explanation of responsibility sharing and conditions 
+for entrustment to avoid discrepancies in awareness with customers, negotiation to overcome risks, and 
+record of agreement that will serve as normative guidelines.
+
+The WBS for consideration of the correct use of OSS and license compliance control was added the "JB: 
+OSS application management" category.
+3.3 Operation & Maintenance Process Changes
+This conclusion to the section on changes explains the changes in the operation & maintenance process.
+3.3.1 Changes in Operation & Maintenance Process Categories
+ 
+ITIL concepts already addressed in the SDEM Practical Standards [Operation and Maintenance 
+(ITSMOP)] are in the OM phase of the operation & maintenance process, and category definitions have 
+been reviewed.
+SDEM and ITSMOP are now consistent.
+For an explanation of a WBS for Category C, D, or E of the operation and maintenance (OM) phase, see 
+the SDEM Practical Standards (Operation and Maintenance: ITSMOP).
+4. SDEM 2.0 Content Structure
+Chapter 4 introduces the content structure of SDEM 2.0.
+By the end of this chapter, you will understand what kind of content is provided with SDEM, how far the 
+SDEM provision scope extends, where to obtain SDEM, and contact information.
+4.1 SDEM 2.0 Content Structure
+ 
+The SDEM content structure broadly consists of three types of content: standard processes, practical 
+standards, and technical content.
+The SDEM Standard Processes include the Standard Process Structure, WBS Manual, and Standard 
+Process Guide.
+The Standard Process Structure shows the WBS1 and WBS2 structures and phase and category 
+definitions.
+The WBS Manual defines the work items and deliverables of WBS3 units and explains key points about 
+the work.
+The Standard Process Guide explains SDEM use.
+The WBS1-2-3 lists are also available in CSV format for easy customization in a project.
+[Reference] Standard Process Guide Excerpt 1) Concept of CA Phase
+ Here is supplementary information about the Standard Process Guide.
+The Standard Process Description is a physical book with the old SDEM. Nicknamed the green book, it 
+is now available in PDF format as the Standard Process Guide in light of today's work environment.
+The written contents range from the basic concepts of SDEM to points to keep in mind in reconstruction.
+Each published chapter is available for browsing on the Web. Browse according to the topic you want to 
+know about.
+For example, "Chapter 4 Requirement Definition/Development/Operational Test and Transition Process" 
+covers the concept of CA phase.
+The chapter describes the concept of current analysis execution at the planning stage or the order 
+receipt time.
+See this chapter to find out more about current analysis differences between the VP/SP phase and CA 
+phase and the concept of current analysis when an order is received from the UI phase.
+[Reference] Standard Process Guide Excerpt 2) Appendix 5. SDEM 2.0 Details of Changes
+ 
+This appendix in the guide provides the details of changes between the old SDEM and SDEM 2.0.
+See this appendix to find out the details of the correspondence between the old SDEM and SDEM 2.0 by 
+WBS.
+For your reference, the history of changes in the latest version is available on the page about SDEM 2.0 
+standard processes on the IKB website.
+4.2 Structure of SDEM Practical Standards
+ 
+Next is an introduction to the SDEM Practical Standards.
+The SDEM Practical Standards provide specific work procedures, document formats, etc. in practice.
+This figure shows the correspondence between titles in the SDEM Practical Standards and phases and 
+categories in the SDEM Standard Processes.
+Select a title according to the phase or category you want to know about.
+Every WBS in the Reconstruction Development, Improved [ITMMAP] improved by new SI quality 
+assurance system initiatives has been incorporated into the SDEM 2.0 standard processes.
+Accordingly, the list of current analysis items and the Quality Assurance (Overall Test) Guidelines, which 
+used to be provided with ITMMAP, are now available as the Common Development [ITCMAP].
+The subsequent pages introduce the newly added content.
+[Reference] Business & IT Grand Design Process Structure [BIeDP*]
+ 
+For business transformation utilizing the latest digital technologies, IT human resources familiar with 
+digital technologies need to participate from company-wide strategy planning or business strategy 
+planning, not from system planning or requirement definition.
+
+Customers should play the main role in developing the company-wide strategy and business strategy. 
+However, as a DX partner, we should understand the customers' ideas and provide support as an IT 
+expert.
+
+The Business & IT Grand Design Process Structure [BIeDP] systematizes the work processes and 
+knowledge for the DX vision/planning.
+Use it to support the customers' DX vision/planning.
+
+[Reference] SDEM Practical Standards: UX Design (ITUMAP)
+ 
+The SDEM Practical Standards [UX Design (ITUMAP)] provides the documents necessary to understand 
+the work in the "B3: UX (Usage experience)" category.
+They include specific work procedures, know-how, and document formats for practical use.
+Content related to UX design will continue to be released.
+Aside from the ongoing release of ITUMAP documents, training is offered to learn about UX design and 
+UI design.
+UX design experts also participate in the projects. Services closely aligned with SDEM are provided to 
+support the implementation of various processes in the "UX (Usage experience)" category and the 
+acquisition of skills.
+You can use the skills you acquire in your projects. 
+[Reference] ITBASP Security, Extended Version
+Last is the ITBASP Security, Extended Version.
+The ITBASP Security, Extended Version provides the know-how necessary for putting into practice "C6: 
+Security" which was improved this time. The provided document samples and formats are so practical 
+that even beginners can easily understand the key points of requirement definition and architecture 
+design. Please make the most of them. 
+4.3 Scope of SDEM 2.0 Provision
+ 
+Here is an explanation of the scope of provision of SDEM 2.0.
+SDEM is Fujitsu's core technology and important know-how for Fujitsu to outsource SI.
+Therefore, provision to an external party is based on the premise that an NDA is concluded and Fujitsu is 
+entrusted with SI.
+Starting with SDEM 2.0, the scope of information provision to customers and business partners is 
+reviewed and restricted depending on the purpose and whether there is a non-disclosure agreement.
+SDEM is copyrighted by Fujitsu, and the scope of provision varies depending on the content within the 
+company/group, and with the business partner or customer. Be sure to confirm it before use. 
+4.4 SDEM 2.0 Published by IKB-SDEM
+ 
+Lastly, the SDEM content introduced in this training course and the textbooks for this training can be 
+obtained from the IKB-SDEM site.
+SDEM continues to evolve for knowledge sharing.
+In order to pass on knowledge in the field, please share your experience and knowledge by giving us 
+your feedback on points requiring more specifics for practical use.
+For inquiries, please contact us from [Inquiry] on the left menu on the IKB-SDEM site. 
+
