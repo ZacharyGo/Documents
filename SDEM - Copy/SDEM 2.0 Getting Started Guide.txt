@@ -1,0 +1,43 @@
+
+1. What is SDEM? 
+1.1 Need for Standardization
+1.2 Fujitsu Standardization = Standard Process Structure "SDEM"
+1.3 Support for Global/De Facto Standards
+1.4 History of Standardization at Fujitsu
+2. SDEM Structure
+2.1 SDEM Processes
+2.2 Process Structure
+2.3 Categories
+2.4 Phases
+2.5 WBS (Work Breakdown Structure) 
+2 Copyright 2022 FUJITSU LIMITED
+Copyright 2022 FUJITSU LIMITED 2
+Contents - SDEM Getting Started Guide -
+3. Each SDEM Process
+3.1 Planning Process
+3.2 Requirement Definition/Development/Operational Test & Transition Process
+3.2.1 Requirement Definition/Development/Operational Test & Transition Process Categories
+3.2.2 Requirement Definition Process
+3.2.3 Development Process
+3.2.4 Operational Test & Transition Process 
+3.2.5 Main WBS Flow of Requirement Definition/Development/Operational Test & Transition Process
+3.3 Operation & Maintenance Process
+4. SDEM 2.0 Content Structure
+4.1 Overall SDEM Structure
+4.2 SDEM Standard Processes
+4.3 Structure of SDEM Practical Standards
+3 Copyright 2022 FUJITSU LIMITED
+Copyright 2022 FUJITSU LIMITED 3
+Contents - SDEM Getting Started Guide -
+5. Applying SDEM
+5.1 Applying SDEM to Projects 
+5.2 Concept of Tailoring
+5.3 Concept of Utilizing SDEM in Agile Development
+6. SDEM Usage Scenarios 
+6.1 Use SDEM at These Times
+6.2 SDEM Usage Scenario 1) Planning Project Plan Scheme and Role Division
+6.3 SDEM Usage Scenario 2) Creating Schedule
+6.4 Scope of SDEM 2.0 Provision
+6.5 SDEM 2.0 Published by IKB-SDEM
+4 Copyright 2022 FUJITSU LIMITED
+Copyright 2022 FUJITSU LIMITED 4
